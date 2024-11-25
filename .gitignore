@@ -1,0 +1,15 @@
+# Dependencias
+node_modules/
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de compilación
+/build/
+
+# Logs
+*.log
+
+# IDEs y editores
+.idea/
+.vscode/
