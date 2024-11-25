@@ -3,7 +3,6 @@ const path = require('path');
 const Store = require('electron-store');
 const WebSocket = require('ws');
 
-// Inicializar store con valores por defecto
 const store = new Store({
     defaults: {
         pedidos: [],
@@ -11,7 +10,7 @@ const store = new Store({
         configuracion: {
             impresora: '',
             nombreNegocio: 'Mi Negocio',
-            puerto: 8080  // Puerto para WebSocket
+            puerto: 8080
         }
     }
 });
